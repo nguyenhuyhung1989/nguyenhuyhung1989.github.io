@@ -19,7 +19,7 @@
 }
 .wk-slideshow img, .wk-gallery img, .spotlight img, a[data-lightbox] img {
 	max-width: 100%;
-	height: auto;
+	height: 120px;
 	vertical-align: middle
 }
 .wk-slideset img, .wk-slideshow canvas {

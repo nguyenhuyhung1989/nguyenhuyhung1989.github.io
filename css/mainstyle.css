@@ -9,12 +9,11 @@
  .container
  {
 	 height: 330px !important;
-	 background:#FFF;
 	 position:relative;
  }
 #slides {
 	display: none;
-	width:980px;
+	width:960px;
 	min-height:283px;
 }
 #slides .slidesjs-navigation {
@@ -26,7 +25,7 @@
 #slides .slidesjs-previous {
 	background-position: 0 -330px;
     height: 108px;
-    left: -10px;
+    left: 0;
     position: absolute;
     top: 30%;
     width: 37px;
@@ -42,7 +41,7 @@
 	background-position: 0 0;
     height: 108px;
     position: absolute;
-    right: -9px;
+    right: 3px;
     top: 30%;
     width: 37px;    
 }
@@ -60,7 +59,7 @@
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    width: 97%;
+    width: 95%;
 	background: none repeat scroll 0 0 #F9F9F9;
     border-top: 1px solid #DDDEDB;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06) inset;
@@ -152,5 +151,7 @@
 	display: none
 }
 .container {
-	margin: 0 auto
+	margin: 0 auto;
+    overflow: hidden;
+    width:980px;
 }

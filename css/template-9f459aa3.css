@@ -155,8 +155,8 @@ h2 {
 	line-height: 26px
 }
 h3 {
-	font-size: 20px;
-	line-height: 20px
+	font-size: 18px;
+	line-height: 18px
 }
 h4 {
 	font-size: 18px;
@@ -757,7 +757,7 @@ body {
 	width: 245px
 }
 #maininner {
-	width: 490px
+	width: 735px
 }
 #menu .dropdown {
 	width: 250px
@@ -886,7 +886,7 @@ body {
 }
 .mod-box-header .module-title {
 	position: relative;
-	margin: 0 0 14px -25px;
+	margin: 0 0 0px -25px;
 	padding: 4px 15px 4px 10px;
 	background-color: #45484C;
 	color: #fff;
@@ -1991,8 +1991,8 @@ table.calendar tfoot td:first-child {
 	font-size: 16px
 }
 #system .items .item {
-	margin-top: 12px;
-	padding-top: 18px;
+	 margin-top: 30px;
+    padding-top: 50px;
 	border-top: 1px solid #dddedb
 }
 #system .items .item:first-child {
@@ -2311,7 +2311,8 @@ ul.list-blank {
 }
 ul.list-blank li {
 	margin-bottom: 10px;
-	overflow: hidden
+	overflow: hidden;
+    height: 60px;
 }
 ul.list-blank img {
 	margin-right: 10px;
