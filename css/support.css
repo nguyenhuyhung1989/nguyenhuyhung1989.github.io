@@ -745,7 +745,7 @@ a:not([class]):active>*, a:not([class]):focus>* {
 	background: none
 }
 body {
-	min-width: 980px
+	/*min-width: 980px*/
 }
 .wrapper {
 	width: 980px
