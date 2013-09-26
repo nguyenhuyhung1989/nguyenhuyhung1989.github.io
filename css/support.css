@@ -315,7 +315,7 @@ a:not([class]):active>*, a:not([class]):focus>* {
 	margin: 0
 }
 #headerbar {
-	padding: 20px 0
+	padding: 0;
 }
 #block-toolbar {
 	padding: 5px 0
@@ -2314,6 +2314,21 @@ ul.list-blank li {
 	overflow: hidden;
     height: 60px;
 }
+#vertical-ticker li{
+	margin: 0;
+}
+#vertical-ticker li:hover{
+	background: #FBFBFB;
+	cursor:pointer;
+}
+#vertical-ticker li img {
+	height: 45px;
+	width: 60px;	
+}
+ul.list-blank li{
+	margin-bottom: 0px;
+}
+
 ul.list-blank img {
 	margin-right: 10px;
 	float: left
